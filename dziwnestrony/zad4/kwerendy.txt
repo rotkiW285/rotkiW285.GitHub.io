@@ -1,0 +1,4 @@
+insert into zgloszenia VALUES (not null, 1, 4, "Warszawa, Staszica 34/5", 1, '10:24:00');
+select adres, dyspozytorzy_id from zgloszenia where ratownicy_id=3;
+CREATE USER 'anna' IDENTIFIED BY 'Anna4!';
+GRANT INSERT, UPDATE, SELECT ON zgloszenia to anna;
